@@ -38,7 +38,7 @@ function App() {
 
         {arr3.map((item, index) => {
           return (
-            <p key={index}>
+            <p className="para" key={index}>
               {item.charAt(0).toUpperCase() + item.slice(1)} : {obj[item]}
             </p>
           );
